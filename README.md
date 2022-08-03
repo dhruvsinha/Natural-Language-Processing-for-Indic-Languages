@@ -1,3 +1,5 @@
+Abstract
+
 This paper aims to replicate some common NLP tasks on 5 Indic languages- Hindi, Bengali, Tamil,
 Malayalam, and Kannada. We will be performing language detection, text classification, part of speech
 tagging, sentence generation on these languages. We have trained several datasets using BoW, LSTMs,
