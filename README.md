@@ -9,4 +9,4 @@ Hindi, plausibly due to data constraints. For Part of Speech tagging in Hindi, t
 well but suffers from severe overfitting. Finally, for sentence generation, we saw that the model was able
 to learn some very interesting nuances of Hindi which took us by surprise!
 
-EMAIL FOR CODE AND DATASET!
+The code for language classification, PoS tagging, and sentence generation are attached here. Please email dhruvsinha.09@gmail.com for datasets.
