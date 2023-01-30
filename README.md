@@ -16,3 +16,9 @@ to learn some very interesting nuances of Hindi which took us by surprise!
 2. PoS_Tagger_final.ipynb: This notebook performs part of speech tagging task
 3. RNN_based_sentence_generation.ipynb: This notebook generates paragraph in Hindi
 4. indic_languages_report.pdf: Final project report
+5. final_presentation.pdf: This is a summary of the project report that we presented to our class. **Please navigate to this pdf file to get a more concise summary of the project report**
+
+## Tasks Performed
+### Classification Task
+
+The language detection and classification task was performed on Hindi, Kannada, Malayalam, Tamil, and Bengali. We used BoW to train the model and achieved high accuracy. 
