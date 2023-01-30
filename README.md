@@ -46,4 +46,16 @@ The classification task performed on Kannada showed good results because the dat
 
 ### Part of Speech Tagging
 
+We trained a model to tag each word in Hindi sentence with their respective Part of speech.
 
+### Paragraph Generation
+
+For this task, we generated sequences/sub-sequence in hindi language based on a given prompt. We trained a multi-layer long short-term memory (LSTM) and (GRU) RNN. 
+The LSTM model produced some excellent results. 
+
+| ![lstm_sentence.jpg](/indic_languages/lstm_sentence.jpg) | 
+|:--:| 
+|Sentence Generation by LSTM|
+
+For those who can't read Hindi, the model is able to pick up finer nuances of the language. For example, the gender identification of a word in
+Hindi is unique. This aspect is displayed in some sentences. The singular/plural words are also used in almost perfect ways. 
