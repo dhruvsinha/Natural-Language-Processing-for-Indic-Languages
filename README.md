@@ -12,13 +12,38 @@ well but suffers from severe overfitting. Finally, for sentence generation, we s
 to learn some very interesting nuances of Hindi which took us by surprise!
 
 ## Files Attached
-1. Classification_clean.ipynb: This notebook performs classification task on indic languages
+1. Classification_clean.ipynb: This notebook performs language detection and text classification task on indic languages
 2. PoS_Tagger_final.ipynb: This notebook performs part of speech tagging task
 3. RNN_based_sentence_generation.ipynb: This notebook generates paragraph in Hindi
 4. indic_languages_report.pdf: Final project report
 5. final_presentation.pdf: This is a summary of the project report that we presented to our class. **Please navigate to this pdf file to get a more concise summary of the project report**
 
 ## Tasks Performed
-### Classification Task
+### Language Detection
 
-The language detection and classification task was performed on Hindi, Kannada, Malayalam, Tamil, and Bengali. We used BoW to train the model and achieved high accuracy. 
+The language detection task was performed on Hindi, Kannada, Malayalam, Tamil, and Bengali. We used BoW to train the model and achieved high accuracy. This is because the script of each of these languages is different and therefore it should not be difficult for the model to distinguish just by looking at the script. 
+
+### Text Classification
+
+In this part, we classify text clippings into some broad categories- Sports, Business, Entertainment, etc. The methodology for this exercise is same as that of the language detection task. We have used linear operations on embedding layer and in the end we get probabilities of each of the classes. The image below is the snapshot of the classification dataset for Hindi. 
+
+| ![classification_data.jpg](/indic_languages/classification_data.jpg) | 
+|:--:| 
+|Hindi Classification Dataset|
+
+The results of performing classification task on Hindi were very poor. This is because the dataset was very small. Moreover, it is very
+difficult to differentiate between some of the classes. For example, sentence belonging to class 'India and sentence belonging to class 'Sports' might have intersection of words.
+
+| ![classification_hindi.jpg](/indic_languages/classification_hindi.jpg) | 
+|:--:| 
+|Hindi Classification Result|
+
+The classification task performed on Kannada showed good results because the dataset was large and classes were distinct. 
+
+| ![classification_Kannada.jpg](/indic_languages/classification_Kannada.jpg) | 
+|:--:| 
+|Kannada Classification Result|
+
+### Part of Speech Tagging
+
+
